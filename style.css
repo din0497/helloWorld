@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.first {
+    display: flex;
+}
+
+.first1 {
+    display: flex;
+    flex: 4;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+}
+
+.first2 {
+    display: flex;
+    flex: 1;
+    background-color: red;
+    height: 50px;
+    margin: 5px;
+}
+
+.second {
+    display: flex;
+}
+
+.second1 {
+    display: flex;
+    flex: 1;
+    background-color: green;
+    height: auto;
+    margin: 5px
+}
+
+.second2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: yellow; */
+    /* height: 100%; */
+}
+
+.second21 {
+    /* display: flex; */
+    /* flex: 1; */
+    background-color: yellow;
+    margin: 5px;
+    height: 150px;
+}
+
+.second22 {
+    /* display: flex; */
+    /* flex: 1; */
+    background-color: yellow;
+    margin: 5px;
+    height: 150px;
+}
+
+.third {
+    display: flex;
+}
+
+.third1 {
+    display: flex;
+    flex: 1;
+    background-color: blue;
+    height: 50px;
+    margin: 5px;
+}
+
+.third2 {
+    flex: 1;
+    background-color: blue;
+    margin: 5px;
+    height: 50px;
+}
+
+.third3 {
+    flex: 1;
+    height: 50px;
+    margin: 5px;
+    background-color: blue;
+}
